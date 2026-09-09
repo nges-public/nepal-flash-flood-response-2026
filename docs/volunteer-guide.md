@@ -49,21 +49,24 @@ All datasets must use:
 
 | Dataset | Geometry |
 |----------|----------|
-| Holding Centres | Point |
+| Holding Centres | Point/Polygon |
 
 
 ## Required Attributes
 
-| Field | Description |
-|--------|-------------|
-| `name` | Facility name |
-| `district` | District |
-| `municipality` | Municipality |
-| `ward` | Ward number |
-| `building_type` | School, Hall, Monastery, etc. |
-| `capacity` | Estimated capacity (if available) |
-| `current_population` | Number of people currently staying in the holding centre |
-| `source` | Data source (Municipality, DAO, Field Verification, etc.) |
+| Field | Description | Required |
+|---|---|---|
+| `hc_id` | Unique holding centre ID | Yes |
+| `name` | Name of the holding centre | Yes |
+| `district` | District where the centre is located | Yes |
+| `municipality` | Municipality where the centre is located | Yes |
+| `ward` | Ward number | Yes |
+| `building_type` | Type of facility | Yes |
+| `estimated_capacity` | Estimated number of people the centre can accommodate | If available |
+| `current_population` | Current number of people staying at the centre | If available |
+| `status` | Current operational status | Yes |
+| `source` | Source of the information | Yes |
+| `remarks` | Additional relevant information | Optional |
 
 Do **not** rename or delete attribute fields.
 
