@@ -1,6 +1,6 @@
 # Temporary Holding Centres
 
-This folder contains geospatial data of temporary holding centres established or identified for people evacuated from areas affected by the 2026 Nepal Flash Flood and associated landslides.
+This folder contains geospatial data of temporary holding centres established or identified for people evacuated from areas affected by the 2026 Nepal Flash Flood.
 
 The objective is to create a standardized and validated dataset of holding centres that can support rescue, relief distribution, resource planning and humanitarian coordination.
 
