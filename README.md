@@ -1,6 +1,36 @@
 # nepal-flash-flood-response-2026
 A centralized GIS volunteer coordination repository by the Nepal Geomatics Engineering Society (NGES) supporting rescue, relief, and recovery efforts for the 2026 Nepal Flash Flood. This repository hosts standardized spatial datasets, temporary holding centre mapping, and collaborative digitization workflows across affected districts.
 
+
+## folder structure
+
+```.
+├── docs
+│   ├── incident-overview.md
+│   └── volunteer-guide.md
+├── fundamental-data
+│   ├── bt-admin
+│   │   └── bt_admin.gpkg
+│   ├── bt-hydrography
+│   │   ├── bt_hydrography.gpkg
+│   │   └── README.md
+│   └── bt-transportation
+│       ├── bt_transportaiton.gpkg-shm
+│       └── bt_transportation.gpkg
+├── LICENSE
+├── output-maps
+├── processing
+├── project-management
+├── README.md
+└── thematic-data
+    └── holding-centers
+        ├── raw
+        ├── README.md
+        └── verified
+
+```
+
+
 ## License
 
 This repository is maintained by the **Nepal Geomatics Engineering Society (NGES)**.
