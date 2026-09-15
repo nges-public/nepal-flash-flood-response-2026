@@ -36,7 +36,8 @@ Each mapped holding centre should contain the following attributes:
 | Field | Description | Required |
 |---|---|---|
 | `hc_id` | Unique holding centre ID | Yes |
-| `name` | Name of the holding centre | Yes |
+| `name_en` | Name of the holding centre in English | Yes |
+| `name_ne` | Name of the holding centre in Nepali | Yes |
 | `district` | District where the centre is located | Yes |
 | `municipality` | Municipality where the centre is located | Yes |
 | `ward` | Ward number | Yes |
